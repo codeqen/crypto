@@ -159,4 +159,46 @@ public class EncryptFile {
             System.out.println(ex);
         }
     }*/
+    
+    
+    /**************
+    public static void main(String[] args) throws IOException{
+
+		//1. Create the frame.
+		JFrame frame = new JFrame("Crypto");
+
+		//2. Optional: What happens when the frame closes?
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		//3. Create components and put them in the frame.
+		//...create emptyLabel...
+
+		//5. Show it.
+		frame.setTitle("CRYPTO");
+		frame.setSize(600, 400);
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);
+
+		JButton encrypt = new JButton("encrypt");
+		encrypt.setBounds(50,100,60,30);  
+		frame.add(encrypt);
+		encrypt.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent encrypt) {
+				JFileChooser chooser = new JFileChooser();
+				if(chooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION) {
+					File file = chooser.getSelectedFile();
+					String path = file.getAbsolutePath();
+					// TODO Auto-generated method stub
+					String encryptedFile = "encryptedFile.jpg";
+					String directoryPath = "/home/niit1/Pictures/";
+					EncryptFile encryptFile = new EncryptFile();
+					System.out.println("Starting Encryption...");
+					encryptFile.encrypt(path,directoryPath + encryptedFile);
+					System.out.println("Encryption completed...");
+				}
+			}
+		});
+	}
+
 }
