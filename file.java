@@ -8,7 +8,7 @@ import javax.swing.JFileChooser;
 public class file {
 
 	public static void main(String[] args)throws IOException {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub.
 JFileChooser chooser = new JFileChooser();
 Scanner in = null;
 if(chooser.showOpenDialog(null)==JFileChooser.APPROVE_OPTION) {
