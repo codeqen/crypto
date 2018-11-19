@@ -6,7 +6,7 @@ import txtCrypt.Bitsgetter.bytegetter;
 
 /**
  *
- * @author Siddharth & Simran
+ * @author Siddharth & Simran Singh
  */
 public class invmixcolumns {
     
