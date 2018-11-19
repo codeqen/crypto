@@ -14,7 +14,7 @@ import txtCrypt.substitution.substitute_bytes;
 
 /**
  *
- * @author Siddharth & Simran
+ * @author Siddharth & Simran Singh
  *
   */
 public class AES {
