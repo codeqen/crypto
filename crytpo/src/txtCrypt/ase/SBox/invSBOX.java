@@ -4,7 +4,7 @@ import txtCrypt.Hexdecimal_converter.decimalhex;
 
 /**
  *
- * @author Siddharth & Simran
+ * @author Siddharth & Simran Singh
  */
 public class invSBOX {
     
